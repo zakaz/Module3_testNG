@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="allSuites" verbose="1" parallel="methods" thread-count="3">
+    <suite-files>
+        <suite-file path="exceptions.xml" />
+        <suite-file path="secondSuite.xml" />
+        <suite-file path="thirdSuite.xml" />
+    </suite-files>
+</suite>

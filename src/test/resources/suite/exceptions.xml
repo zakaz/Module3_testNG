@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All_Tests">
+    <groups>
+        <run>
+            <include name="config"></include>
+            <include name="exceptions"></include>
+        </run>
+    </groups>
+    <test name="Exceptions">
+        <classes>
+            <class name="test_standart.Cosinus"/>
+            <class name="test_standart.Ctangens"/>
+            <class name="test_exceptions.CtangensExceptions"/>
+            <class name="test_standart.Divide"/>
+            <class name="test_exceptions.DivideExceptions"/>
+            <class name="test_standart.IsNegative"/>
+            <class name="test_standart.IsPositive"/>
+            <class name="test_standart.Mult"/>
+            <class name="test_standart.Pow"/>
+            <class name="test_standart.Sinus"/>
+            <class name="test_standart.Sqrt"/>
+            <class name="test_standart.Sub"/>
+            <class name="test_standart.Sum"/>
+            <class name="test_standart.Tangens"/>
+            <class name="test_exceptions.TangensExceptions"/>
+        </classes>
+    </test>
+    
+</suite>

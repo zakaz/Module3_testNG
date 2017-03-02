@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test_via_listener">
+    <listeners>
+        <listener class-name="Listeners.MyCustomListener" />
+    </listeners>
+    <test name="Just two Classes" >
+        <classes>
+            <class name="test_standart.Sub"/>
+            <class name="test_standart.Sum"/>
+        </classes>
+    </test>
+</suite>
